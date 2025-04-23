@@ -32,6 +32,21 @@ Whether you're a **researcher looking for data collaboration** or a **municipali
 
 ---
 
+## ❓ Questions We Can Answer Together
+
+> Real-world decisions deserve real insight.  
+> These are the kinds of questions social data science can help solve:
+
+- Where are the **best opportunities** for small contractors in my city?
+- What does job data tell us about **changing expectations** in the workforce?
+- How are **different neighborhoods impacted** by city policy?
+- Who’s organizing online, and what are they saying?
+- What barriers are facing workers — and what does the data say?
+
+➡️ [See more question examples →](/questions/)
+
+---
+
 ## ⚡ Current Focus: The Future of Work
 
 The world of work is changing—fast.  
