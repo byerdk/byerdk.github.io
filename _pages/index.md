@@ -15,7 +15,9 @@ header:
       url: "/contractor-hub/"
     - label: "Questions"
       url: "/questions/"
-excerpt: "Turning public data into insight and impact—for researchers, cities, and communities."
+
+      excerpt: "Turning public data into insight and impact—for researchers, cities, and communities."
+      
 ---
 
 ## 👋 Welcome to DBSDS — Dan Byer Social Data Science
