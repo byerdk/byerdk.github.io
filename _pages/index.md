@@ -7,6 +7,8 @@ header:
   overlay_filter: "0.4"
   overlay_image: /assets/images/work-header.jpg
   actions:
+    - label: "View Projects"
+      url: "/projects/"
     - label: "Work With Me"
       url: "/contact/"
     - label: "Contractor Hub"
@@ -14,7 +16,7 @@ header:
     - label: "Questions"
       url: "/questions/"
 
-      excerpt: "Turning public data into insight and impact—for researchers, cities, and communities."
+excerpt: "Turning public data into insight and impact—for researchers, cities, and communities."
       
 ---
 
