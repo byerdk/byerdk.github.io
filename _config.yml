@@ -1,5 +1,9 @@
 # trigger rebuild
 
+theme: null
+remote_theme: "mmistakes/minimal-mistakes"
+
+
 title: MM
 email:
 description: >-
