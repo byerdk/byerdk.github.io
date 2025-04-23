@@ -87,6 +87,9 @@ category_archive:
   type: liquid
   path: /categories/
 
+# trigger rebuild
+  
+
 tag_archive:
   type: liquid
   path: /tags/
