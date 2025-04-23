@@ -1,9 +1,9 @@
-name: GitHub Pages
+name: Deploy GitHub Pages
 
 on:
   push:
     branches:
-      - master  # or 'main' if your default branch is named that
+      - master  # or 'main' if that's your default branch
 
 permissions:
   contents: read
@@ -12,18 +12,19 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Set up Ruby
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: '3.1'
 
       - name: Install dependencies
         run: |
@@ -31,13 +32,12 @@ jobs:
           bundle config set --local path 'vendor/bundle'
           bundle install
 
-      - name: Build the site
+      - name: Build the site with Jekyll
         run: bundle exec jekyll build
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
           path: ./_site
 
   deploy:
@@ -46,13 +46,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v1
-        with:
-          name: github-pages
-
-      - name: Deploy to GitHub Pages
+      - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v2
+
