@@ -7,8 +7,6 @@ header:
   overlay_filter: "0.4"
   overlay_image: /assets/images/work-header.jpg
   actions:
-    - label: "View Projects"
-      url: "/projects/"
     - label: "Work With Me"
       url: "/contact/"
     - label: "Contractor Hub"
