@@ -42,6 +42,10 @@ Through ASA-aligned projects and civic consulting demos, I explore:
 > 🎯 **My mission:** Use data not just to describe the world—but to improve it.
 
 ---
+### 🛠️ New: [Contractor & Small Biz Hub](/contractor-hub/)
+
+Helping local contractors and small business owners focus, find bids, and win work.
+
 
 ## 📬 Ready to Connect?
 
