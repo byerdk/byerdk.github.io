@@ -14,7 +14,7 @@ header:
     - label: "Contractor Hub"
       url: "/contractor-hub/"
     - label: "Questions"
-      url: /questions/
+      url: "/questions/"
 
 excerpt: "Turning public data into insight and impact—for researchers, cities, and communities."
 ---
