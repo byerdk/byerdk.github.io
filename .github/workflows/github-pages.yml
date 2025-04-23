@@ -31,8 +31,9 @@ jobs:
       - name: Build site with Jekyll
         run: bundle exec jekyll build
       - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v3  # ✅ CORRECT ACTION
         with:
+          name: github-pages
           path: ./_site
 
   deploy:
