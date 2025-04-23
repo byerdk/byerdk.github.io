@@ -22,7 +22,7 @@ excerpt: "Turning public data into insight and impact—for researchers, cities,
 
 ## 👋 Welcome to DBSDS — Dan Byer Social Data Science
 
-I'm Dan Byer: a retired Army Major, sociologist-in-training, and social data scientist.  
+I'm Dan Byer: a retired Army officer, sociologist-in-training, and social data scientist.  
 I use modern data tools to tackle social questions, support research, and inform public decision-making.
 
 This site showcases my work at the intersection of:
